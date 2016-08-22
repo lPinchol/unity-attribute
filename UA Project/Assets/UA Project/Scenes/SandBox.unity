@@ -98,6 +98,7 @@ GameObject:
   - 23: {fileID: 78925366}
   - 114: {fileID: 78925365}
   - 114: {fileID: 78925370}
+  - 114: {fileID: 78925371}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -185,6 +186,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f5f5b25018e4684da24b213a173ec02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &78925371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 78925364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75f9b14c2f5cdf8468c260002ee474dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1029183289
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,6 +206,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1029183291}
   - 114: {fileID: 1029183290}
+  - 114: {fileID: 1029183292}
   m_Layer: 0
   m_Name: Test
   m_TagString: Untagged
@@ -226,6 +239,70 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &1029183292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1029183289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46c9ae781669a144f8959c0581c49db2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myName: Moon Pincho
+  desc: Here is a public string that I wnat to hide in the inspector.
+  editBox: '1
+
+    2
+
+    3
+
+    4
+
+    5
+
+    6
+
+    7
+
+    8
+
+    9
+
+    10'
+  editBox2: '1
+
+    2
+
+    3
+
+    4
+
+    5
+
+    6
+
+    7
+
+    8
+
+    9
+
+    10'
+  health: 126
+  gold: 71
+  silver: 93
+  copper: 88
+  strength: 107
+  dexterity: 66
+  constitution: 41
+  race: Human
+  age: 500
+  vec3: {x: 0, y: 0, z: 0}
+  randomInt:
+    RangeStart: 2
+    RangeEnd: 5
 --- !u!1 &1633396785
 GameObject:
   m_ObjectHideFlags: 0
