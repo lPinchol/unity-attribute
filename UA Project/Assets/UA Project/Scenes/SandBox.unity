@@ -317,8 +317,8 @@ MonoBehaviour:
   age: 500
   vec3: {x: 0, y: 0, z: 0}
   randomInt:
-    RangeStart: 2
-    RangeEnd: 5
+    RangeStart: 1
+    RangeEnd: 4
 --- !u!1 &1633396785
 GameObject:
   m_ObjectHideFlags: 0
