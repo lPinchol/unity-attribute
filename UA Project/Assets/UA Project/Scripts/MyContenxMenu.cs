@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace MoonPincho
 {
+#if UNITY_5_4
     public class MyContenxMenu : MonoBehaviour
     {
         [ContextMenuItem("Add","AddMethod")]
@@ -33,4 +34,5 @@ namespace MoonPincho
             lives = 10;
         }
     }
+#endif
 }

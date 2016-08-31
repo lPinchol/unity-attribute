@@ -6,6 +6,7 @@ using UnityEditor;
 
 namespace MoonPincho
 {
+#if UNITY_5_4
     [InitializeOnLoad]
     public class MyInitializeOnLoad
     {
@@ -30,4 +31,5 @@ namespace MoonPincho
             Debug.Log("MyInitializeOnLoad - Update!");
         }
     }
+#endif
 }

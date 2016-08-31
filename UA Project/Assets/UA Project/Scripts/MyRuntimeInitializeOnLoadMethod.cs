@@ -2,10 +2,10 @@
 /// 
 
 using UnityEngine;
-using UnityEditor;
 
 namespace MoonPincho
 {
+#if UNITY_5_4
     public class MyRuntimeInitializeOnLoadMethod
     {
         [RuntimeInitializeOnLoadMethod]
@@ -24,4 +24,5 @@ namespace MoonPincho
             Debug.Log("Update - [MyRuntimeInitializeOnLoadMethod]");
         }
     }
+#endif
 }

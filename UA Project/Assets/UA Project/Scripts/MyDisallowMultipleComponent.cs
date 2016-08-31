@@ -5,8 +5,10 @@ using UnityEngine;
 
 namespace MoonPincho
 {
+#if UNITY_5_4
     [DisallowMultipleComponent]
     public class MyDisallowMultipleComponent : MonoBehaviour {
 
     }
+#endif
 }

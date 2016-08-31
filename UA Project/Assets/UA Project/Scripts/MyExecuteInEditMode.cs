@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace MoonPincho
 {
+#if UNITY_5_4
     [ExecuteInEditMode]
     public class MyExecuteInEditMode : MonoBehaviour
     {
@@ -16,4 +17,5 @@ namespace MoonPincho
                                                                                  Random.Range(0f, 1f));
         }
     }
+#endif
 }

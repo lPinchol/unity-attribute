@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace MoonPincho
 {
+#if UNITY_5_4
     [AddComponentMenu("Moon Pincho/My Custom Component")]
     public class MyCustomComponent : MonoBehaviour
     {
@@ -21,4 +22,5 @@ namespace MoonPincho
 
         }
     }
+#endif
 }

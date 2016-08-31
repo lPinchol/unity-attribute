@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace MoonPincho
 {
+#if UNITY_5_4
     public class MyDecorator : MonoBehaviour
     {
 
@@ -54,4 +55,5 @@ namespace MoonPincho
             Debug.Log(num);
         }
     }
+#endif
 }

@@ -6,6 +6,7 @@ using UnityEditor;
 
 namespace MoonPincho
 {
+#if UNITY_5_4
     public class MyMenuItem : MonoBehaviour
     {
         [MenuItem("MoonPincho/My Custom SubMenu/My Custom Menu Item #%w")]
@@ -20,4 +21,5 @@ namespace MoonPincho
             Debug.Log("RigidbodyDebug was called on: " + Selection.activeTransform.gameObject.name);
         }
     }
+#endif
 }

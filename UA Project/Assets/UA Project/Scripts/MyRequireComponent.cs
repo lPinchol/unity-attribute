@@ -5,9 +5,11 @@ using UnityEngine;
 
 namespace MoonPincho
 {
+#if UNITY_5_4
     [RequireComponent(typeof(BoxCollider))]
     public class MyRequireComponent : MonoBehaviour
     {
 
     }
+#endif
 }
